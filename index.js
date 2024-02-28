@@ -26,5 +26,5 @@ class Heroi {
         console.log(`O heroi com nome de ${this.nome} que tem ${this.idade} anos e é um ${this.tipo} atacou usando ${ataque}`);
     }
 }
-let oHeroi = new Heroi('Debora', 31, 'ninja');
+let oHeroi = new Heroi('Debora', 31, 'programador');
 oHeroi.atacar();
