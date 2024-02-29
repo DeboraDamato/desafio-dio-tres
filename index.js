@@ -21,10 +21,10 @@ class Heroi {
                 ataque = 'shuriken';
                 break;
             default:
-                ataque = 'um ataque indefinido';
+                ataque = 'ataque não identificado';
         }
-        console.log(`O heroi com nome de ${this.nome} que tem ${this.idade} anos e é um ${this.tipo} atacou usando ${ataque}`);
+        console.log(`O ${this.tipo} atacou usando ${ataque}`);
     }
 }
-let oHeroi = new Heroi('Debora', 31, 'programador');
+let oHeroi = new Heroi('Gandalf', 1000, 'mago');
 oHeroi.atacar();
